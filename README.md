@@ -92,13 +92,13 @@ double PID::TotalError() {
  Error = current speed - aim speed
  Throttle value between [-1 , 1]
 * Parameter Tuning
-![pidTunePara.png]()
+![pidTunePara](https://github.com/chenxiao1995/CarND-PID-Control-Project/blob/master/pidfigure/pidTunePara.png)
  * For the Steering PID controller , set **Kp = 0.13 ,  Kd = 0.0 , Ki = 1.0 **
  * For the Speed PID controller , set **Kp = 0.1 ,  Kd = 0.002 , Ki = 0.0 **
 
 ## Result
-![pidResult]()
-![pidResult2]()
+![pidResult](https://github.com/chenxiao1995/CarND-PID-Control-Project/blob/master/pidfigure/pidResult.png)
+![pidResult2](https://github.com/chenxiao1995/CarND-PID-Control-Project/blob/master/pidfigure/pidResult2.png)
 
 
 
